@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color:white;
+  font-family: 'Dancing Script';
+  font-size: 100%;
+}
+
+header{
+  background-color: #5b7989;
+  width:100%;
+}
+
+#titulo {
+  font-size: 2em;
+  text-shadow: 2px 2px #02010a;
+  padding:10px;
+}
+
+section{
+  width:100%;
+  display:inline-block;
+}
+
+.principal {
+  background-color: red;
+  width:100%
+}
+
+.secundario {
+  background-color: blue;
+  width:100%;
+  display:flex;
+  flex-flow: row;
+}
+
+.secundario img{
+  width:50%;
+}
+
+
+}
