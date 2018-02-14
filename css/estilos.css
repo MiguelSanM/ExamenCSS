@@ -108,6 +108,7 @@ section .secun{
   height:300px;
   width:420px;
   /* width:344.88px; */
+
 }
 
 .s2 img{
@@ -118,13 +119,42 @@ section .secun{
     width:420px;
 }
 
+.s1 img:hover{
+  transform:rotate(10deg);
+}
+
+.s2 img:hover{
+  transform: translate(20px,-5px);
+}
+
 footer{
   background-color: #C6d5c5;
   width:100%;
   color:black;
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  padding:20px;
+  border-radius: 0 0 10px 10px;
+  font-size:0.5em;
 }
 
 
+.contacto {
+width:25%;
+}
+
+.termino{
+width:25%;
+}
+
+.redes-sociales{
+width:25%;
+}
+
+.derechos{
+width:25%;
+}
 
 
 
