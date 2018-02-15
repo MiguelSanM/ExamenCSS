@@ -20,7 +20,6 @@ body{
   width:90%;
   max-width: 900px;
   margin:auto;
-
 }
 
 header{
@@ -32,6 +31,7 @@ header{
   align-items: center;
   flex-flow: row wrap;
   border-radius: 10px 10px 0 0;
+  animation: animacionex 4s;
 }
 header .titulo{
   font-size: 1.5em;
@@ -68,6 +68,7 @@ section .main {
   width:100%;
   display: flex;
   flex-flow: row wrap;
+  animation:
 }
 
 div .princ{
@@ -103,24 +104,41 @@ section .secun{
 
 .s1 img{
   /* height: 20vh; */
-  padding:4%;
+  /* padding:4%; */
   /* width: 30vh; */
   height:300px;
   width:420px;
   /* width:344.88px; */
+}
 
+#imagen3{
+  box-shadow: 2px 2px 3px #000000;
+}
+
+#imagen3:hover{
+  box-shadow: 2px 2px 3px #82c3a6;
+}
+
+#imagen2:hover{
+  box-shadow: 2px 2px 3px #82c3a6;
+}
+
+#imagen2{
+  box-shadow: 2px 2px 3px #000000;
 }
 
 .s2 img{
   /* height:20vh; */
-  padding:4%;
+  /* padding:4%; */
   /* width:30vh; */
     height:300px;
     width:420px;
+
 }
 
 .s1 img:hover{
   transform:rotate(10deg);
+
 }
 
 .s2 img:hover{
@@ -136,12 +154,19 @@ footer{
   justify-content: space-between;
   padding:20px;
   border-radius: 0 0 10px 10px;
-  font-size:0.5em;
 }
-
 
 .contacto {
 width:25%;
+}
+
+.contacto ul{
+  list-style-type: none;
+}
+
+.contacto a{
+  color:black;
+  font-weight: bold;
 }
 
 .termino{
@@ -152,8 +177,31 @@ width:25%;
 width:25%;
 }
 
+.redes-sociales ul{
+  list-style-type: none;
+}
+
+.redes-sociales img{
+  width:15px;
+  height:15px;
+}
+
 .derechos{
 width:25%;
+}
+
+@-webkit-keyframes animacionex{
+  0%{
+    margin-top: 150%;
+  }
+
+  60%{
+    margin-top: -5%;
+  }
+
+  100%{
+    margin-top: 0%;
+  }
 }
 
 
@@ -161,5 +209,3 @@ width:25%;
 
 /* ------------Versíon Móvil--------------- */
 @media (max-width:900px){
-
-basta
