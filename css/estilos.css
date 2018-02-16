@@ -17,7 +17,7 @@ body{
   display: flex;
   flex-wrap:wrap;
   flex-direction: row;
-  width:90%;
+  width:100%;
   max-width: 900px;
   margin:auto;
 }
@@ -106,8 +106,8 @@ section .secun{
   /* height: 20vh; */
   /* padding:4%; */
   /* width: 30vh; */
-  height:300px;
-  width:420px;
+  height:290px;
+  width:390px;
   /* width:344.88px; */
 }
 
@@ -131,8 +131,8 @@ section .secun{
   /* height:20vh; */
   /* padding:4%; */
   /* width:30vh; */
-    height:300px;
-    width:420px;
+    height:290px;
+    width:390px;
 
 }
 
@@ -209,3 +209,46 @@ width:25%;
 
 /* ------------Versíon Móvil--------------- */
 @media (max-width:900px){
+
+  .contenido {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    width:100%;
+    margin:auto;
+  }
+
+  header{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+  }
+  .enlaces{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .enlaces a{
+margin: auto;
+}
+
+ .main {
+   display: flex;
+   flex-flow: column wrap;
+ }
+
+ .secun {
+   display: flex;
+   flex-flow: column wrap;
+ }
+
+ .s2,.s1{
+   width:100%;
+ }
+
+ #imagen2,#imagen3{
+   width:100%;
+ }
+}
