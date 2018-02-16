@@ -91,7 +91,6 @@ section .secun{
   flex-flow: row wrap;
   width:100%;
   justify-content: center;
-  height:400px;
   align-items: center;
 }
 
@@ -204,6 +203,10 @@ width:25%;
   }
 }
 
+.s1 a,.s2 a{
+  text-align: center;
+  color:black;
+}
 
 
 
@@ -225,9 +228,20 @@ width:25%;
     align-items: center;
     flex-flow: column nowrap;
   }
-  .enlaces{
+
+.titulo{
+  width:100%;
+  text-align: center;
+}
+
+header .enlaces{
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     text-align: center;
+    align-content: center;
+    padding-top: 3%;
   }
 
   .enlaces a{
@@ -239,16 +253,31 @@ margin: auto;
    flex-flow: column wrap;
  }
 
- .secun {
-   display: flex;
-   flex-flow: column wrap;
- }
+  .secun{
+display: flex;
+
+
+  }
 
  .s2,.s1{
    width:100%;
+   padding: 4%;
  }
 
  #imagen2,#imagen3{
+   width:100%;
+   max-width: 550px;
+
+ }
+
+ footer{
+   width:100%;
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: space-between;
+ }
+
+ footer div{
    width:100%;
  }
 }
